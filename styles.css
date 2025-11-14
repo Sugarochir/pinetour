@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,250;1,14..32,250&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  background-image: url(./images/HeroImage.png);
+  width: 1440px;
+  height: 773px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  width: 1200px;
+  height: 100px;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  gap: 34px;
+  font-family: "roboto", sans-serif;
+  font-weight: 600;
+}
+.lang {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  color: whitesmoke;
+}
+.fontstyle {
+  opacity: 72%;
+  font-family: "Bebas Neue", sans-serif;
+}
+.numberstyl {
+  opacity: 72%;
+  font-family: "Hanuman", sans-serif;
+}
+.location {
+  background-image: url(./images/Location\ image.png);
+  width: 1440px;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 37px;
+  font-family: "Bebas Neue", sans-serif;
+  color: whitesmoke;
+  gap: 24px;
+}
+.crd {
+  width: 275px;
+  height: 370px;
+  border-radius: 40px;
+  box-shadow: 8px 8px #29728b40, -8px -8px #1f72aa75;
+  text-shadow: 4px 4px 4.9px #000000a6;
+  overflow: hidden;
+}
+.image1 {
+  background-image: url(./images/1.png);
+  background-size: cover;
+}
+.image2 {
+  background-image: url(./images/2.png);
+  background-size: cover;
+}
+.image3 {
+  background-image: url(./images/3.png);
+  background-size: cover;
+}
+.image4 {
+  background-image: url(./images/4.png);
+  background-size: cover;
+}
+.roadmap {
+  background-image: url(./images/Roadmap\ image.png);
+  width: 1440px;
+  height: 1022px;
+  margin: auto;
+  background-size: cover;
+}
+.BLUR {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0px;
+  padding-top: 120px;
+  font-family: "roboto", sans-serif;
+}
+.crds {
+  width: 513px;
+  height: 640px;
+  display: flex;
+  margin: 59px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.incrds {
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "roboto", sans-serif;
+}
+.day {
+  width: 52px;
+  height: 48px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin-right: 30px;
+  font-family: "montserrat", sans-serif;
+  font-size: 14px;
+}
+.map {
+  width: 1200px;
+  height: 640px;
+  margin: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-top: 59px;
+}
+.pin1 {
+  position: absolute;
+  left: 832px;
+  top: 65px;
+}
+.pin2 {
+  position: absolute;
+  left: 660px;
+  top: 200px;
+}
+.pin3 {
+  position: absolute;
+  left: 1045px;
+  top: 210px;
+}
+.pin4 {
+  position: absolute;
+  left: 610px;
+  top: 183px;
+}
+.sukhbaatar {
+  border: 4px solid transparent;
+  position: relative;
+}
+
+.sukhbaatar:hover {
+  border: 4px solid white;
+}
+.sukhbaatar-img {
+  position: absolute;
+  left: 925px;
+  top: 110px;
+  display: none;
+}
+.sukhbaatar:hover + .sukhbaatar-img {
+  display: block;
+}
+.minostary {
+  border: 4px solid transparent;
+  position: relative;
+}
+.minostary:hover {
+  border: 4px solid white;
+}
+.minostary-img {
+  position: absolute;
+  left: 725px;
+  top: -15px;
+  display: none;
+}
+.minostary:hover + .minostary-img {
+  display: block;
+}
+.khorgo {
+  border: 4px solid transparent;
+  position: relative;
+}
+.khorgo:hover {
+  border: 4px solid white;
+}
+.khorgo-img {
+  position: absolute;
+  left: 590px;
+  top: 130px;
+  display: none;
+}
+.khorgo:hover + .khorgo-img {
+  display: block;
+}
+.terkhi {
+  border: 4px solid transparent;
+  position: relative;
+}
+.terkhi:hover {
+  border: 4px solid white;
+}
+.terkhi-img {
+  position: absolute;
+  left: 530px;
+  top: 130px;
+  display: none;
+}
+.terkhi:hover + .terkhi-img {
+  display: block;
+}
+.khuvsgul {
+  border: 4px solid transparent;
+  position: relative;
+}
+.khuvsgul:hover {
+  border: 4px solid white;
+}
+.khuvsgul-img {
+  position: absolute;
+  left: 505px;
+  top: -120px;
+  display: none;
+}
+.khuvsgul:hover + .khuvsgul-img {
+  display: block;
+}
+.overley {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.overley:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
+.flex {
+  display: flex;
+  position: absolute;
+  left: 30px;
+  top: 65px;
+  justify-content: flex-start;
+  width: 89px;
+  height: 15px;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+}
+.roboto {
+  font-family: "roboto", sans-serif;
+  font-weight: 600;
+}
+.montserrat {
+  font-family: "montserrat", sans-serif;
+}
+.price-setion {
+  width: 1440px;
+  height: 920px;
+  background-image: url(./images/Price&Footer\ image.png);
+  background-size: cover;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+}
+.pr-title {
+  width: 1440px;
+  height: 51px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pr-container {
+  width: 1200px;
+  height: 527px;
+  margin-top: 79px;
+  display: flex;
+  justify-content: space-between;
+}
+.pr-cont {
+  width: 384px;
+  height: 527px;
+  background-color: #fafbfc;
+  border-radius: 40px;
+  box-shadow: transparent;
+  padding: 0px 24px;
+  font-family: "montserrat", sans-serif;
+}
+.pr-cont:hover {
+  box-shadow: 8px 8px #29728b40, -8px -8px #1f72aa75;
+}
+.pr-cont-header {
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.pr-content {
+  height: 387px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+.detals {
+  width: 336px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+.price-setion-crd {
+  width: 336px;
+  height: 78px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+.bottion {
+  width: 336px;
+  height: 48px;
+  background-color: #a4d1e2;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.package {
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.check-sign {
+  position: absolute;
+}
+.c-list {
+  list-style-type: none;
+  background-image: url("./images/check.png");
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  padding-left: 40px;
+  justify-content: space-between;
+}
+.inclues {
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 40px;
+}
+.overley1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.popular {
+  width: 91px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6972b5;
+  border-radius: 14px;
+}
+.balanced {
+  display: flex;
+  justify-content: space-between;
+}
+.pr-cont:hover .bottion .overley1 {
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: 0.5s;
+  color: white;
+}
+.footer {
+  width: 1440px;
+  height: 200px;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-me {
+  width: 1200px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+}
+.s-media {
+  width: 358px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+}
+.fb {
+  width: 167px;
+  height: 44px;
+  background-color: white;
+  border-radius: 22px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo {
+  margin-left: 20px;
+}
